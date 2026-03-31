@@ -27,6 +27,26 @@
 
 ---
 
+# 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── Card.jsx              # Movie card component
+│   ├── Hero.jsx              # Hero banner component
+│   ├── NowInCinemas.jsx      # Now in cinemas section
+│   ├── SearchedMovies.jsx    # Search results display
+│   ├── Trending.jsx          # Trending movies section
+│   ├── TrailerCard.jsx       # Trailer card component
+│   ├── UpComing.jsx          # Upcoming movies section
+│   ├── WhatsPopular.jsx      # Popular movies section
+│   └── SwiperManual.css      # Swiper styling
+├── App.jsx                   # Main app component
+├── main.jsx                  # Application entry point
+├── App.css                   # App styling
+└── index.css                 # Global styles
+```
+
 ## Objectives
 - Build a responsive React-based web application  
 - Implement real-world features like search and dynamic movie browsing  
